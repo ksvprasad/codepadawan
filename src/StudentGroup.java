@@ -28,7 +28,10 @@ public class StudentGroup implements StudentArrayOperation {
 	public Student[] getStudents() {
 		// Add your implementation here
             Scanner s = new Scanner(System.in);
-            
+            int A[] = new int[20];
+            int i;
+            for(i=0;i<20;i++)
+                A[i]=s.nextInt();
 		return null;
 	}
 
