@@ -264,7 +264,7 @@ public class StudentGroup implements StudentArrayOperation {
             Student std[]=new Student[students.length];
             for(int i=0;i<students.length;i++)
             {
-            if(age==students[i].age)
+            if(age==students[i].getAge())
                 std[j]=students[i];
             j=j+1;
             }
