@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  * A fix-sized array of students
@@ -26,6 +27,8 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
+            Scanner s = new Scanner(System.in);
+            
 		return null;
 	}
 
