@@ -260,7 +260,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudentsByAge(int age) {
-	int j=0;
+	/*int j=0;
             Student std[]=new Student[students.length];
             for(int i=0;i<students.length;i++)
             {
@@ -268,7 +268,7 @@ public class StudentGroup implements StudentArrayOperation {
                 std[j]=students[i];
             j=j+1;
             }
-		return std;
+		return std;*/
 	}
 
 	@Override
